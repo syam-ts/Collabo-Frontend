@@ -3,7 +3,7 @@
 const Navbar = () => {
   return (
     <div>
-        <ul className='flex gap-16 justify-center py-4 font-extralight'>
+        <ul className='flex gap-16 justify-center py-4 font-extralight bg-stone-400'>
             <li>Home </li>
             <li>Connections</li>
             <li>About</li>

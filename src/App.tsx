@@ -1,3 +1,4 @@
+import Connections from "./components/Connections"
 import Navbar from "./components/Navbar"
 
  
@@ -8,6 +9,7 @@ function App() {
     <> 
     <div>
       <Navbar /> 
+      <Connections />
     </div>
     </>
   )
