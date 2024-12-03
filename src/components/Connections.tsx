@@ -2,9 +2,14 @@
 
 const Connections = () => {
   return (
-    <div>
-        <span> Developer 1 </span>
-        <span> Developer 2 </span>
+    <div className='flex gap-12 justify-center my-44'> 
+        <div className='w-96 h-96 bg-slate-300 text-center'>
+        <span className='font-mono'> Developer 1 </span>
+        </div>
+        
+        <div className='w-96 h-96 bg-slate-300 text-center'>
+        <span className='font-mono'> Developer 2 </span>
+        </div>
     </div>
   )
 }
