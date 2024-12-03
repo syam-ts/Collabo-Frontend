@@ -1,9 +1,9 @@
-import React from 'react'
+ 
 
 const Navbar = () => {
   return (
     <div>
-        <ul>
+        <ul className='flex gap-16 justify-center py-4 font-extralight'>
             <li>Home </li>
             <li>Connections</li>
             <li>About</li>
